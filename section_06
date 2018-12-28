@@ -1,0 +1,14 @@
+Section 6: Testing multiple cases
+  18 - Table driven tests
+  19 - Generating table driven test code
+  20 - Subtests
+  21 - Shared setup and teardown
+  22 - TestMain
+
+Algo que se usa bastante en la comunidad pero que "no nos gusta", puede ayudar
+a escribir el "setup" y "teardown" bastante fácil (y una sola vez)
+
+ejemplo: section_06_test.go
+
+Nota al pie, se puede usar TestMain para implementar nuestro propio "main" para
+poder hacer algo al principio (y final) de TODOS los tests

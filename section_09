@@ -1,0 +1,16 @@
+Section 9: Comparing objects for equality
+  30 - Simple comparisons
+  31 - Reflect's DeepEqual function
+  32 - Golden files (brief overview)
+  33 - Helper comparison functions
+
+En la mayoría de los casos se pueden usar 3 comparasiones:
+  * a == b
+  * reflect.DeepEqual(a, b)
+  * <golden file> (más adelante)
+
+operadores de comparación: https://golang.org/ref/spec#Comparison_operators
+
+Cuando habla de "Helper comparison functions" no habla de implementar "Equals"
+habla de hacer funciones (en los tests, no en el código testeado) que ejecuten
+las comparaciones y los t.Error...

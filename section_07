@@ -1,0 +1,11 @@
+Section 7: Parallel tests
+  23 - Running tests in parallel
+  24 - Parallel subtests
+  25 - Setup and teardown with parallel subtests
+  26 - Gotchas with closures and parallel tests
+
+Pueden servir para encontrar problemas con código que tiene
+que correr concurrentemente, pero son más complicados de escribir
+y pueden traer otros problemas (si se comparten dependnecias)
+
+Los subtests (t.Run) son escenciales para esto

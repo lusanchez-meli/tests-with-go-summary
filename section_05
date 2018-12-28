@@ -1,0 +1,14 @@
+Section 5: Examples as test cases
+  13 - A basic example as a test case
+  14 - Viewing examples in the docs
+  15 - Unordered example output
+  16 - Complex examples
+  17 - Examples in the standard library
+
+Funciones de Test : func TestXXX(t *testing.T) {}
+Funciones de Ejemplo : func ExampleXXX() {}
+
+Los ejemplos se ejecutan y si fallan se muestran como tests fallidos
+
+como están en el código (gF): /usr/local/Cellar/go/1.10.2/libexec/src/strings/example_test.go@208
+como quedan en los docs (Cmd+click): https://golang.org/pkg/strings/#example_Split

@@ -1,0 +1,6 @@
+Section 15: State
+  58 - What is global state?
+  59 - Testing with global state (if you must)
+
+Es preferible evitarlo, pero de ser necesario habría que modificarlo y volver al estado original cada vez que se
+ejecuta un test

@@ -1,0 +1,12 @@
+Section 4: Failing tests
+  10 - Ways to signal test failure
+  11 - When to use Error vs Fatal
+  12 - Writing useful failure messages
+
+Fatal equivale a Error+exit:
+  t.Fatal("mensaje")
+  ===
+  t.Error("mensaje")
+  os.Exit(1)
+
+Error marca los tests como fallidos, Fatal hace lo mismo pero además detiene la ejecución

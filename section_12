@@ -1,0 +1,16 @@
+Section 12: Additional testing flags
+  43 - Benchmarks
+  44 - Verbose testing
+  45 - Code coverage
+  46 - The timeout flag
+  47 - Parallel testing flags
+
+Como los tests y los ejemplos, se pueden ejecutar benchmarks:
+  func TestXXX(t *testing.T)
+  func ExampleXXX(t *testing.T)
+  func BenchmarkXXX(b *testing.B)
+
+go test -v            muestra todos los tests que corren
+go test -cover        muestra cobertura
+go test -timeout 10s  corre los tests y si tardan mas que (10s) fallan
+go test -race         ejecuta chequeos de race condition (tarda más en compilar)

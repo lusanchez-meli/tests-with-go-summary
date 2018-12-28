@@ -1,0 +1,12 @@
+Section 13: External and internal testing
+  48 - Differences between external and internal tests
+  49 - How to write internal and external tests
+  50 - When to use external tests
+  51 - Exporting unexported vars, funcs, and types
+  52 - When to use internal tests
+
+External: (caja negra) es lo que estamos haciendo casi siempre paquete vs paquete_test (probamos como un usuario)
+Internal: (caja blanca) es lo que se puede hacer cuando se prueban detalles de la implementación
+
+Algo interesante pero poco recomendable: se pueden probar detalles de implementación en un test externo, exportando algo
+en archivo un xxx_test.go

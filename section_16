@@ -1,0 +1,10 @@
+Section 16: Dependency injection (DI)
+  60 - What is dependency injection (DI)?
+  61 - DI enables implementation agnostic code
+  62 - DI makes testing easier
+  63 - DI and useful zero values
+  64 - Removing global state with DI
+  65 - Package level functions
+  66 - Summary of dependency injection
+
+Lo usamos constantemente

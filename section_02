@@ -1,0 +1,7 @@
+Section 2: Tests are just Go code
+  4 - Testing with a main package
+  5 - Testing with Go's testing package
+  6 - What happens when we run go test
+
+Respuesta a 6: se genera un "main" que ejecuta todas las funciones de test
+se compila, genera un binario, se ejecuta y se elimina

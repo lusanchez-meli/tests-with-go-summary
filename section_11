@@ -1,0 +1,11 @@
+Section 11: Controlling which tests are run
+  38 - Running specific tests
+  39 - Running tests for subpackages
+  40 - Skipping tests
+  41 - Custom flags
+  42 - Build tags
+
+go test -run TestXXX (es lo que la IDE hace por atrás)
+go test -run ./service (es lo que la IDE hace por atrás)
+
+t.Skip() : se puede llamar en cualquier momento (despues de algunas verificaiones?) para saltear el test

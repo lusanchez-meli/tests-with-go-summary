@@ -1,0 +1,6 @@
+Section 8: Testing race conditions
+  27 - What is a race condition?
+  28 - The race detection flag
+  29 - Testing explicitly for race conditions
+
+Necesarios para testear código concurrente: go test -race

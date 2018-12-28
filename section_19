@@ -1,0 +1,6 @@
+Section 19: Testing with HTTP
+  75 - httptest.ResponseRecorder
+  76 - httptest.Server
+  77 - Building HTTP helpers
+
+El paquete httptest se puede usar para crear y manipular objetos Response y Request para probar llamadas a APIs

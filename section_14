@@ -1,0 +1,8 @@
+Section 14: Types of tests
+  53 - Overview of test types
+  54 - Unit tests
+  55 - Integration tests
+  56 - End-to-end tests
+  57 - Which test type should I use?
+
+Unit vs Functional vs End-to-End, al menos uno de cada tipo, pero depende del proyecto

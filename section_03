@@ -1,0 +1,18 @@
+Section 3: Naming conventions
+  7 - File naming conventions
+  8 - Function naming conventions
+  9 - Variable naming conventions
+
+Para la parte 7:
+  xxx_test.go
+  xxx_integration_test.go
+  xxx_internal_test.go
+
+Para la parte 8: (lo tenemos en nuestros guidelines)
+  TestSujeto
+  TestSujeto_caso
+  TestSujeto_Metodo
+  TestSujeto_Metodo_caso
+
+Para la parte 9:
+  want y got

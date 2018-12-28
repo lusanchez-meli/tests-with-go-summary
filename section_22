@@ -1,0 +1,7 @@
+Section 22: Testing with time
+  84 - Why are dates and times problematic?
+  85 - Inject your time and sleep functions
+  86 - Testing timeouts
+
+time.Sleep, time.Now, time.After: funciones que dependen del tiempo actual se pueden mockear (usando DI o global)
+Si no se mockean los tests pueden tardar muuuuucho tiempo

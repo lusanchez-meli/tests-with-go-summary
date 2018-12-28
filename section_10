@@ -1,0 +1,13 @@
+Section 10: Testing utilities
+  34 - Building things with helper functions
+  35 - Generating test data
+  36 - Go's testing/quick package
+  37 - Public testing utilities (solo para librerias)
+
+"Helper functions": Funciones que creen objetos reales pero que sirvan para un test
+ejemlpo: ~/go/src/github.com/mercadolibre/shipping-selfservice-api/src/api/dao/optin_repo_test.go@60
+Importante el uso de t.Helper()
+
+Podemos usar quick.Check() para generar valores para tipos conocidos
+
+ejemplo: section_10_test.go

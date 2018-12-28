@@ -1,0 +1,9 @@
+Section 21: Testing subprocesses
+  80 - What is a subprocess?
+  81 - Running the subprocess in tests
+  82 - Mocking simple subprocesses
+  83 - Mocking complex subprocesses
+
+Útiles para probar salida a stdout, stderr, algún flag o inicialización complicada, sirve bastante cuando se hacen
+comandos pero no tanto para una API
+No son buenos con la cobertura (todos los tests ejecutados como un subproceso no cuentan para la cobertura)

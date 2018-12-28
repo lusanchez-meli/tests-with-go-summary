@@ -1,0 +1,8 @@
+Section 18: Interface test suites
+  72 - What are interface test suites?
+  73 - Interface test suite setup and teardown
+  74 - Interface test suites in the wild
+
+Son tests que prueban cosas esperables de una interfaz (como io.Reader o net.Conn, por ejemplo)
+Son generalmente usados por desarroladores de librerias que ofrecen una forma rápida para probar que
+código de terceros implementa correctamente alguna interfaz

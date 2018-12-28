@@ -1,0 +1,9 @@
+Section 20: Golden files
+  78 - What are golden files?
+  79 - Updating golden files
+
+"Golden files" son archivos modelo, por ejemplo un .html o .pdf con la información correcta como esperamos
+que se genere por alguna parte del código, y para probarlo se genera un nuevo archivo y se compara con el
+modelo, si son diferentes el test falla y se dejan ambos archivos para poder compararlos con otra herramienta.
+
+Útil cuando la salida de algo no es fácil de probar (muy grande o muy complicada), labels por ejemplo
