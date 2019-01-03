@@ -5,9 +5,9 @@ Section 17: Mocks, stubs, and fakes
   70 - Third party packages
   71 - Faking APIs
 
-Dumm, Stub, Fake, Double, Mock, Spy: en go son todos "mock" tienen diferencias muy pequeñas
+Dummy, Stub, Fake, Double, Mock, Spy: en go son todos "mock" tienen diferencias muy pequeñas
 Hay paquetes que nos permiten generar código de mocks (cosa no recomendable)
 
-Para hacer mockear una API se pueden hacer 2 cosas
+Para mockear una API se pueden hacer 2 cosas
   * Mockear el cliente y la respuesta: es lo que generalmente hacemos nosotros
   * Levantar un server que responda lo que esperamos y hacer el request real pero al server mockeado
